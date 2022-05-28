@@ -1,0 +1,35 @@
+{
+  "name": "drft-js-plugin-emoji",
+  "version": "1.0.0",
+  "description": "Draft-js emoji plugin example",
+  "keywords": [
+    "emoji",
+    "draft-js",
+    "draft-js-plugins"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@draft-js-plugins/editor": "4.1.3",
+    "@draft-js-plugins/emoji": "4.6.1",
+    "draft-js": "0.11.7",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-scripts": "4.0.0"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
